@@ -1,0 +1,6 @@
+spacy
+pytextrank
+wordcloud
+pandas
+matplotlib
+numpy
