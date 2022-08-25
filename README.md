@@ -1,8 +1,7 @@
 ## Visualization Keyword Extracted by TextRank on SpaCy
 
-The keyword extraction method is one approach to understanding linguistic patterns and getting more insight from the text. This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io).
-Textrank implanted in [PyTextRank](https://spacy.io/universe/project/spacy-pytextrank) can extract keywords as phrases and summarises the most representative terms from the corpus. PyTextRank is part of  SpaCy plugin, which makes things easy.  
- 
+The keyword extraction method is one approach to understanding linguistic patterns and getting more insight from the text. This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) and Textrank implanted as [PyTextRank].(https://spacy.io/universe/project/spacy-pytextrank).  Textrank can extract keywords as phrases and summarises the most representative terms from the corpus. PyTextRank is part of  SpaCy plugin, which makes things easy.  
+  
 
 <p align="center">
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/ecpr.png" >
