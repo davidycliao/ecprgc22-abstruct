@@ -6,6 +6,6 @@ The keyword extraction method is one approach to understanding linguistic patter
   <img width="840" height="800" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/ecpr.png" >
 </p>
 
-- [data](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs
+- [The dataset](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs!!!👍 
 - The code on this exmaple can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
 - inspired by this [blog](https://www.analyticsvidhya.com/blog/2022/03/keyword-extraction-methods-from-documents-in-nlp/)
