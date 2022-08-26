@@ -1,4 +1,4 @@
-## Visualization Keyword Extracted from Abstructs of 2022 ECPR General Conference
+## Visualization Keyword Extraction on Abstructs of 2022 ECPR General Conference
 
 
 The keyword extraction method is one approach to understanding linguistic patterns and getting more insight from the text. 
