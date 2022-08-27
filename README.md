@@ -10,7 +10,7 @@ PyTextRank is part of  SpaCy plugin, which makes things easy!!!!
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/ecpr.png" >
 </p>
 
-### Keyword on `Representation` and `Political Parties`
+## Keyword on `Representation` and `Political Parties`
 
 <p align="center">
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pl.png" >
@@ -18,14 +18,14 @@ PyTextRank is part of  SpaCy plugin, which makes things easy!!!!
 
 
 
-### Keyword on `Media` and `National Identity`
+## Keyword on `Media` and `National Identity`
 
 <p align="center">
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/md.png" >
 </p>
 
 
-### Keyword on `Political Theory`
+## Keyword on `Political Theory`
 
 <p align="center">
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pt.png" >
