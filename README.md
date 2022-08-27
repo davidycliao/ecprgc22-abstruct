@@ -10,6 +10,31 @@ PyTextRank is part of  SpaCy plugin, which makes things easy!!!!
   <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/ecpr.png" >
 </p>
 
+---
+
+<p align="center">
+  <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pl.png" >
+</p>
+
+
+---
+
+
+<p align="center">
+  <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/md.png" >
+</p>
+
+---
+
+
+<p align="center">
+  <img width="840" height="950" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pt.png" >
+</p>
+
+
+
+
+
 - [The dataset](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs!!!👍 
 - The code on this exmaple can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
 - inspired by this [blog](https://www.analyticsvidhya.com/blog/2022/03/keyword-extraction-methods-from-documents-in-nlp/).
