@@ -35,9 +35,5 @@ This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) 
 ## Data Info
 
 - [The dataset](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs!! 👍 
-
-- The code for `keywords extraction` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb). More info about  [Textrank](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf), Please see Mihalcea's work at [here](mihalcea)
-
-- The code for `text network` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb). Interested in Text Net, please see Chris Bail's [textnet](https://github.com/cbail/textnets).
-
-- see scientific paper to learn more about [Textrank](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf).
+- The code for `keywords extraction` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
+- The code for `text network` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
