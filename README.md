@@ -6,13 +6,13 @@ This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) 
 
 
 <p align="center">
-  <img width="640" height="750" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/ecpr.png" >
+  <img width="640" height="750" src="https://raw.githubusercontent.com/davidycliao/ecprgc22-abstruct/main/image/ecpr.png" >
 </p>
 
 ## Keyword on `Representation` and `Political Parties`
 
 <p align="center">
-  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pl.png" >
+  <img width="440" height="450" src="https://raw.githubusercontent.com/davidycliao/ecprgc22-abstruct/main/image/pl.png" >
 </p>
 
 
@@ -20,14 +20,14 @@ This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) 
 ## Keyword on `Media` and `National Identity`
 
 <p align="center">
-  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/md.png" >
+  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/image/md.png" >
 </p>
 
 
 ## Keyword on `Political Theory`
 
 <p align="center">
-  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/pt.png" >
+  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/image/pt.png" >
 </p>
 
 
