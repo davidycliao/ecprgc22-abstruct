@@ -1,0 +1,61 @@
+---
+title: "ECPR ABSTRUC Using Textnet"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE}
+# install.packages("devtools")
+# install_github("cbail/textnets")
+library(devtools)
+library(textnets)
+library(readr)
+```
+
+```{r message=FALSE, warning=FALSE}
+dataset_sorted <- read_csv("dataset_sorted.csv")
+dataset_sorted <- dataset_sorted[!dataset_sorted$abstract %in% "NA",]
+```
+
+```{r message=FALSE}
+pl_set <- dataset_sorted[dataset_sorted$tag2 == "Representation"  |dataset_sorted$tag3 == "Political Parties" | dataset_sorted$tag2 == "Party Members" ,] 
+pl_obj <-  PrepText(pl_set, 
+                    groupvar = "pres1",
+                    textvar =  "abstract", 
+                    node_type = "groups", 
+                    tokenizer = "words", 
+                    pos = "nouns",
+                    remove_stop_words = TRUE,
+                    compound_nouns = TRUE) |>
+  CreateTextnet()
+
+pl <-  VisTextNet(pl_obj, alpha = 0.1, label_degree_cut = 0)
+ggsave("pl.png")
+```
+
+```{r message=FALSE}
+pt_obj <- dataset_sorted[dataset_sorted$tag1 == "Political Theory",] |>
+  PrepText(groupvar = "pres1",
+           textvar =  "abstract", 
+           node_type = "groups", 
+           tokenizer = "words", 
+           pos = "nouns",
+           remove_stop_words = TRUE,
+           compound_nouns = TRUE) |>
+  CreateTextnet() 
+pt <-  VisTextNet(pt_obj, alpha = 0.1, label_degree_cut = 0)
+ggsave("pt.png")
+```
+
+```{r message=FALSE}
+md_obj <- dataset_sorted[dataset_sorted$tag1 == "Media"|dataset_sorted$tag2 == "National Identity",] |>
+  PrepText(groupvar = "pres1",
+           textvar =  "abstract", 
+           node_type = "groups", 
+           tokenizer = "words", 
+           pos = "nouns",
+           remove_stop_words = TRUE,
+           compound_nouns = TRUE) |>
+  CreateTextnet() 
+md <-  VisTextNet(md_obj, alpha = 0.1, label_degree_cut = 0)
+ggsave("md.png")
+```
