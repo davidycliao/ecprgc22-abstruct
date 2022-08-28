@@ -30,10 +30,15 @@ This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) 
   <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/image/pt.png" >
 </p>
 
+## Keyword on `China` and `Asia`
+
+<p align="center">
+  <img width="440" height="450" src="https://raw.githack.com/davidycliao/ecprgc22-abstruct/main/image/cn.png" >
+</p>
 
 
 ## Data Info
 
 - [The dataset](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs!! 👍 
 - The code for `keywords extraction` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
-- The code for `text network` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
+- The code for `text network` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.Rmd).

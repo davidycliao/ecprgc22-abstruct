@@ -16,8 +16,9 @@ dataset_sorted <- read_csv("dataset_sorted.csv")
 dataset_sorted <- dataset_sorted[!dataset_sorted$abstract %in% "NA",]
 ```
 
+###  Keyword on `Representation` and `Political Parties`
 ```{r message=FALSE}
-pl_set <- dataset_sorted[dataset_sorted$tag2 == "Representation"  |dataset_sorted$tag3 == "Political Parties" | dataset_sorted$tag2 == "Party Members" ,] 
+pl_set <- dataset_sorted[dataset_sorted$tag2 == "Representation" |dataset_sorted$tag3 == "Political Parties" | dataset_sorted$tag2 == "Party Members" ,] 
 pl_obj <-  PrepText(pl_set, 
                     groupvar = "pres1",
                     textvar =  "abstract", 
@@ -29,9 +30,10 @@ pl_obj <-  PrepText(pl_set,
   CreateTextnet()
 
 pl <-  VisTextNet(pl_obj, alpha = 0.1, label_degree_cut = 0)
-ggsave("pl.png")
-```
+ggsave("image/pl.png")
 
+```
+### Keyword on `Political Theory`
 ```{r message=FALSE}
 pt_obj <- dataset_sorted[dataset_sorted$tag1 == "Political Theory",] |>
   PrepText(groupvar = "pres1",
@@ -42,9 +44,11 @@ pt_obj <- dataset_sorted[dataset_sorted$tag1 == "Political Theory",] |>
            remove_stop_words = TRUE,
            compound_nouns = TRUE) |>
   CreateTextnet() 
-pt <-  VisTextNet(pt_obj, alpha = 0.1, label_degree_cut = 0)
-ggsave("pt.png")
+pt <-  VisTextNet(pt_obj, alpha = 0.2, label_degree_cut = 0)
+ggsave("image/pt.png")
 ```
+
+### Keyword on `Media` and `National Identity`
 
 ```{r message=FALSE}
 md_obj <- dataset_sorted[dataset_sorted$tag1 == "Media"|dataset_sorted$tag2 == "National Identity",] |>
@@ -56,6 +60,25 @@ md_obj <- dataset_sorted[dataset_sorted$tag1 == "Media"|dataset_sorted$tag2 == "
            remove_stop_words = TRUE,
            compound_nouns = TRUE) |>
   CreateTextnet() 
-md <-  VisTextNet(md_obj, alpha = 0.1, label_degree_cut = 0)
-ggsave("md.png")
+md <- VisTextNet(md_obj, alpha = 0.2, label_degree_cut = 0)
+ggsave("image/md.png")
 ```
+
+
+### Keyword on `Asia` and `China`
+
+```{r}
+cn_obj <- dataset_sorted[dataset_sorted$tag1 == "Asia" | dataset_sorted$tag1 == "China" | dataset_sorted$tag2 == "China", ] |>
+  PrepText(groupvar = "pres1",
+           textvar =  "abstract", 
+           node_type = "groups", 
+           tokenizer = "words", 
+           pos = "nouns",
+           remove_stop_words = TRUE,
+           compound_nouns = TRUE) |>
+  CreateTextnet() 
+cn <- VisTextNet(cn_obj, alpha = 0.2, label_degree_cut = 0)
+ggsave("image/cn.png")
+```
+
+
