@@ -64,9 +64,7 @@ md <- VisTextNet(md_obj, alpha = 0.2, label_degree_cut = 0)
 ggsave("image/md.png")
 ```
 
-
 ### Keyword on `Asia` and `China`
-
 ```{r}
 cn_obj <- dataset_sorted[dataset_sorted$tag1 == "Asia" | dataset_sorted$tag1 == "China" | dataset_sorted$tag2 == "China", ] |>
   PrepText(groupvar = "pres1",
