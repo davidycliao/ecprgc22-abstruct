@@ -33,6 +33,7 @@ pl <-  VisTextNet(pl_obj, alpha = 0.1, label_degree_cut = 0)
 ggsave("image/pl.png")
 
 ```
+
 ### Keyword on `Political Theory`
 ```{r message=FALSE}
 pt_obj <- dataset_sorted[dataset_sorted$tag1 == "Political Theory",] |>
@@ -49,7 +50,6 @@ ggsave("image/pt.png")
 ```
 
 ### Keyword on `Media` and `National Identity`
-
 ```{r message=FALSE}
 md_obj <- dataset_sorted[dataset_sorted$tag1 == "Media"|dataset_sorted$tag2 == "National Identity",] |>
   PrepText(groupvar = "pres1",
@@ -59,7 +59,7 @@ md_obj <- dataset_sorted[dataset_sorted$tag1 == "Media"|dataset_sorted$tag2 == "
            pos = "nouns",
            remove_stop_words = TRUE,
            compound_nouns = TRUE) |>
-  CreateTextnet() 
+  CreateTextnet()
 md <- VisTextNet(md_obj, alpha = 0.2, label_degree_cut = 0)
 ggsave("image/md.png")
 ```
