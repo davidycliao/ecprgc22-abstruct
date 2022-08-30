@@ -41,4 +41,4 @@ This example uses an industrial-strength NLP library, [SpaCy](https://spacy.io) 
 
 - [The dataset](https://github.com/thegempie/ecprgc22-data) is done by @thegempie, good jobs!! 👍 
 - The code for `keywords extraction` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.ipynb).
-- The code for `text network` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.Rmd).
+- The code for `textnet` can be found at [ecprgc22-abstruct/ecpr.ipynb](https://github.com/davidycliao/ecprgc22-abstruct/blob/main/ecpr.Rmd).
